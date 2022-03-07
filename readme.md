@@ -32,9 +32,13 @@ Various notes:
 
 ### Running Tests
 
+For unit test development, watching
 > npm run test 
 
-Tests are build with jest and can be found in the `/tests` folder.
+For running everything (such as a pre-deployment check)
+> npm run test-all
+
+Tests are executed with jest and can be found in the `/tests` folder.
 
 ### Deployment
 
@@ -84,4 +88,6 @@ Try to make intelligent guesses for valid account numbers by adding or removing 
 ## Time Logged:
 
 1200 - 1315: 75
-1340 - 
+1340 - 1410: 30 -- project structure seems set up. phew.
+1410 - 1425: 15 -- more setup, basically. dang.
+1500 - 

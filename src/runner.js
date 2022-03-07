@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "fs/promises";
+import { magicalDataTransformer } from "./transformer";
 
 /**
  * Run the program. Do all the things.
@@ -14,7 +15,7 @@ async function runner(inputFile, outputFile) {
     encoding: "utf8", // specifying an encoding returns the file contents as a string
   });
 
-  const dataToSave = fileContents; // magicalDataTransformer(fileContents);
+  const dataToSave = magicalDataTransformer(fileContents);
 
   // Async write data to a file, replacing the file if it already exists.
   await writeFile(outputFile, dataToSave, { encoding: "utf8" });
