@@ -1,0 +1,15 @@
+{
+  "name": "test-double-take-home",
+  "version": "0.0.1",
+  "description": "Bank OCR Kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "emragins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emragins/test-double-take-home/issues"
+  },
+  "homepage": "https://github.com/emragins/test-double-take-home#readme"
+}
