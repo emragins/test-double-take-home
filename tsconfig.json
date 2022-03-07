@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    /*"allowJs": true, /* Allow javascript files to be compiled. */
+    "checkJs": true /* Report errors in .js files. */,
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ] /* List of folders to include type definitions from. */
+  }
+}

@@ -3,13 +3,20 @@
   "version": "0.0.1",
   "description": "Bank OCR Kata",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "exec": "node ./index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "emragins",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/emragins/test-double-take-home/issues"
   },
-  "homepage": "https://github.com/emragins/test-double-take-home#readme"
+  "homepage": "https://github.com/emragins/test-double-take-home#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
 }

@@ -14,13 +14,25 @@ Clone the code and run `npm install`.  (If you do not have node or npm installed
 ### Executing the Code
 
 Run
-> node [file1]
+> npm run exec [inputFile]
+
+Output will be in the same location with `.output` appended to the name.
 
 Note/Warning: For the time being, the output file will be named according to the input file.  If the file exists, it will be over-written.
 
+### Writing code
+
+Various notes:
+
+* Due to this being a quick project with one developer at the moment, there is no editorconfig/prettier configuration added.  As the project grows, these should be added to aid with code consistency across teammates.
+* This project leverages vscode's built-in typescript support for design-time assistance.
+* node modules require the `.js` extension on imports, so if a module can't be found, that might be why.  (See https://stackoverflow.com/a/68783000/219072)
+
+
+
 ### Running Tests
 
-> npm run test
+> npm run test 
 
 Tests are build with jest and can be found in the `/tests` folder.
 
@@ -67,3 +79,9 @@ Output a file for each input file and specify "ERR", "ILL" or "" (valid) for eac
 Try to make intelligent guesses for valid account numbers by adding or removing one pop from a character for "ERR" or "ILL" entries.  "If there is only one possible number with a valid checksum, then use that. If there are several options, the status should be AMB. If you still can't work out what it should be, the status should be reported ILL."
 
 **Technical Goal: Write an algorithm which takes an entry and tries to "guess" a valid one.**
+
+
+## Time Logged:
+
+1200 - 1315: 75
+1340 - 
