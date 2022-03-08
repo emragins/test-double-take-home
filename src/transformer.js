@@ -1,5 +1,5 @@
-import { parse } from "./parser";
-import { validate } from "./validator";
+import { parse } from "./parser.js";
+import { validate } from "./validator.js";
 
 export function magicalDataTransformer(fileContents) {
   // parse

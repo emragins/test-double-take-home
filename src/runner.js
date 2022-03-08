@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "fs/promises";
-import { magicalDataTransformer } from "./transformer";
+import { magicalDataTransformer } from "./transformer.js";
 
 /**
  * Run the program. Do all the things.
