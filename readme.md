@@ -90,4 +90,4 @@ Try to make intelligent guesses for valid account numbers by adding or removing 
 1200 - 1315: 75
 1340 - 1410: 30 -- project structure seems set up. phew.
 1410 - 1425: 15 -- more setup, basically. dang.
-1500 - 
+1510 - 1610: 60 -- parsing; as much towards validation as can do

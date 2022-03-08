@@ -2,6 +2,8 @@
  * @typedef {object} Entry
  * //@property {Array<Array<number>>} rawDigits might be easier to tweak these later?
  * @property {string} parsed
+ * @property {boolean?} checkSumPassed
+ * @property {boolean?} hasIllegalCharacter indicates an unknown digit, ie, '?'
  */
 
 /**
@@ -69,6 +71,7 @@ export function parse(fileContents) {
 
     return entries;
 }
+
 function mapBinaryToDigit(binaryDigit) {
     const happyMapping = {
         "010101111": 0,
