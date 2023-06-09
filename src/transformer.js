@@ -7,6 +7,7 @@ export function magicalDataTransformer(fileContents) {
 
   // validate
   const validatedResult = validate(parsingResult);
+  
   // figure out possible alternatives
 
   const outputFileContents = validatedResult.map(pr => {

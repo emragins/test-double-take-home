@@ -59,9 +59,12 @@ export function parse(fileContents) {
 
         entryNumber++;
 
+        // digits is an array of numbers, ie, ['1', '?', ...]
+        // the inside join('') is to concat all the 1s and 0s for that digit together
         let digits = rawDigits.map(d => mapBinaryToDigit(d.join('')))
         let newEntry = {
             //rawDigits: rawDigits, 
+            //digits: digits,
             parsed: digits.join('')
         };
 
